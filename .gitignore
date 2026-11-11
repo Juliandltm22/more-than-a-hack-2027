@@ -18,6 +18,8 @@ possession_by_frame.pkl
 # Any file in results/ is a set of labels for the whole match. A perfect one is a copy of the
 # ground truth, so the folder ships empty and stays that way.
 evaluation/results/*.csv
+# Generated full-match candidates stay local as well.
+evaluation/candidates/*.csv
 
 # ...with one deliberate exception. The baselines are computed from the ATD alone -- the same ATD
 # every enrolled participant has -- and never read a ground truth of any kind, so they carry no
